@@ -22,34 +22,8 @@
 	<img id="logo" src="img/metal_oath.png" alt="Metal Oath">
     </header>
   
-  
-    <nav>
-	<ul>
-		<li>
-        	<a href="index.html">Home Page</a>
-		</li>
-
-		<li>
-        	<a href="discography.html">Discography</a>
-		</li>
-
-		<li>
-		<a href="upcoming_dates.html">Upcoming Dates</a>
-		</li>
-
-		<li>
-		<a href="members.html">Members</a>
-		</li>
-
-		<li>
-		<a href="media.html">Media</a>
-		</li>
-
-		<li>
- 		<a href="about.html">About</a>
-		</li>
-	</ul>
-    </nav>
+   <?php include '../resources/navigation.php'; ?>
+   
 <h1>About Us</h1>
 <p align="justify">
 Metal Oath has been around for five years now. Hank founded the band and was
@@ -67,19 +41,7 @@ They now play together and make great music.
 	Subscribe to our web page if you would like to keep updated on all things Metal Oath
 </p>
 
-<footer>
-<ul>
-
-	<li>
-	<a href="sign_up.html">Sign Up</a>
-	</li>
-
-	<li>
-	<a href="log_in.html">Log In</a>
-	</li>
-
-</ul>
-</footer>
+<?php include '../resources/footer.php'; ?>
 
 </body>
 </html>

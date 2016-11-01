@@ -21,37 +21,11 @@
 	<img id="logo" src="img/metal_oath.png" alt="Metal Oath">
     </header>
   
-    <nav>
-	<ul>
-		<li>
-        	<a href="index.html">Home Page</a>
-		</li>
+    <?php include '../resources/navigation.php'; ?>
 
-		<li>
-        	<a href="discography.html">Discography</a>
-		</li>
+    <img style="margin-top: 30px;" src="img/straight_out_of_hell.png" alt="Straight Out Of Hell" height="325" width="325">
 
-		<li>
-		<a href="upcoming_dates.html">Upcoming Dates</a>
-		</li>
-
-		<li>
-		<a href="members.html">Members</a>
-		</li>
-
-		<li>
-		<a href="media.html">Media</a>
-		</li>
-
-		<li>
- 		<a href="about.html">About</a>
-		</li>
-	</ul>
-    </nav>	
-
-    <img class="float_left" src="img/straight_out_of_hell.png" alt="Straight Out Of Hell" height="325" width="325">
-
-    <p margin-left: 30px>
+    <p margin-left: 50px>
     Metal Oath's upcoming album will be Straight Out of Hell, which features eight new songs.
     The track list includes:
     </p>
@@ -77,26 +51,14 @@
      </ul>
 
     <section>
-      <img class="float_left" src="img/the_last_true_warrior.png" alt="Straight Out Of Hell" height="325" width="325">
+      <img src="img/the_last_true_warrior.png" alt="Straight Out Of Hell" height="325" width="325">
 
       <p margin-left: 30px>
       Metal Oath's is currently working on their next album, The Last True Warrior.
       </p>
     </section>
     
-<footer>
-<ul>
-
-	<li>
-	<a href="sign_up.html">Sign Up</a>
-	</li>
-
-	<li>
-	<a href="log_in.html">Log In</a>
-	</li>
-
-</ul>
-</footer>
-
+    <?php include '../resources/footer.php'; ?>
+    
 </body>
 </html>

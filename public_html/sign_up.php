@@ -18,33 +18,7 @@
 	<img id="logo" src="img/metal_oath.png" alt="Metal Oath">
     </header>
 
-    <nav>
-	<ul>
-		<li>
-        	<a href="index.html">Home Page</a>
-		</li>
-
-		<li>
-        	<a href="discography.html">Discography</a>
-		</li>
-
-		<li>
-		<a href="upcoming_dates.html">Upcoming Dates</a>
-		</li>
-
-		<li>
-		<a href="members.html">Members</a>
-		</li>
-
-		<li>
-		<a href="media.html">Media</a>
-		</li>
-
-		<li>
- 		<a href="about.html">About</a>
-		</li>
-	</ul>
-    </nav>
+    <?php include '../resources/navigation.php'; ?>
 
     <h1>
 	Sign Up
@@ -86,19 +60,7 @@ Answer to Your Security Question:
 
 </form>
 
-<footer>
-<ul>
-
-	<li>
-	<a href="sign_up.html">Sign Up</a>
-	</li>
-
-	<li>
-	<a href="log_in.html">Log In</a>
-	</li>
-
-</ul>
-</footer>
+<?php include '../resources/footer.php'; ?>
 
 </body>
 </html>
